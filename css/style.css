@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(255,148,151);
+}
+
+.profil {
+  position: relative;
+  top:10px;
+  height: 200px;
+  width: 600px;
+  background-color: white;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  padding: 10px;
+}
+
+.leftProfil{
+  width: 30%;
+  height: 90%;
+  padding: 10px;
+}
+
+.leftProfil img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.leftProfil button{
+  position: relative;
+  width: 100%;
+  top: 10px;  
+}
+
+.rightProfil{
+  width: 70%;
+  height: 90%;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+.rightProfil h1{
+  font-size: 1.5em;
+}
+
+.rightProfil h2{
+  font-size: 1em;
+}
+
+.rightProfil p{
+  font-size: 0.8em;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+.stats .posts,.likes,.comments{
+  width: 20%;
+  font-size: 80%;
+  line-height: 1px;
+}
+
+.stats h1{
+  font-size: 1em;
+}
+
+#verified{
+  width: 40px;
+  position: relative;
+  right: 5px;
+}
+
+#dialog{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font: 15px;
+  font-weight: bold;
+}
