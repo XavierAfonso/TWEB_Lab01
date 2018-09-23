@@ -1,7 +1,6 @@
 $(function() {
     $( "#follow" ).click(function() {
-        $('#dialog').html("Thank You For Following Me !");
-        $("#dialog").dialog();
+        $('#dialog').html("<p>Thank You For Following Me !</p>");
       });
   });
   
